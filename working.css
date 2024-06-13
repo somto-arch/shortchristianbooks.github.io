@@ -3,6 +3,10 @@ body {
     width: 100%;
     min-width: 100vh;
 }
+@font-face {
+    font-family: Fraunces;
+    url('https://fonts.googleapis.com/css?family=Fraunces') format('woff2')
+}
 
 
 .vl {
