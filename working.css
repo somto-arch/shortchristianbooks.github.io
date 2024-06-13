@@ -23,7 +23,7 @@ body {
     border: 160px solid transparent;
     border-right: 0;
     border-top: 120px solid darkgreen;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: -2px;
     margin: -100px;
