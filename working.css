@@ -24,7 +24,7 @@ body {
     border-right: 0;
     border-top: 120px solid darkgreen;
     position: fixed;
-    top: -15px;
+    top: 0;
     right: -2px;
     margin: -100px;
     transform: rotate(240grad);
@@ -33,7 +33,7 @@ body {
     background: linear-gradient(navajowhite, honeydew);
     margin: -100px;
     padding: 80px;
-   width: inherit;
+   width: 1285px;
     height: 259px;
 }
 
