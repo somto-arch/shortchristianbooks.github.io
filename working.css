@@ -11,7 +11,7 @@
     visibility: collapse;
 }
 
-@media only screen and (min-width: 720px) 
+@media only screen and (max-width: 414px)
 {
 
     .sidebar2 {
@@ -69,20 +69,25 @@
 
 
 
+
+
+
     body {
         font-family: 'Fraunces';
         width: 100%;
-        min-width: 100vh;
+        margin-bottom: 100px;
+
 
     }
 
 
     .vl {
         border-left: 30px solid saddlebrown;
-        height: 900px;
+        height: 1000px;
         position: absolute;
         left: 0;
         top: 0;
+        bottom: 0;
     }
 
     .circle {
@@ -159,7 +164,7 @@
 
     .second {
         left: 140px;
-        bottom: 40px;
+        bottom: 20px;
         margin: 50px;
         font-size: 34px;
         color: #AC4317;
@@ -169,7 +174,7 @@
 
     .second_min {
         left: 140px;
-        bottom: 5px;
+        bottom: -17px;
         margin: 50px;
         color: #454545;
         font-size: 18px;
@@ -178,7 +183,7 @@
 
     .third {
         left: 140px;
-        bottom: -72px;
+        bottom: -105px;
         margin: 50px;
         font-size: 34px;
         color: #AC4317;
@@ -188,7 +193,7 @@
 
     .third_min {
         left: 140px;
-        bottom: -109px;
+        bottom: -141px;
         margin: 50px;
         color: #454545;
         font-size: 18px;
@@ -197,7 +202,7 @@
 
     .fourth {
         left: 140px;
-        bottom: -179px;
+        bottom: -230px;
         margin: 50px;
         font-size: 34px;
         color: #AC4317;
@@ -207,9 +212,38 @@
 
     .fourth_min {
         left: 140px;
-        bottom: -215px;
+        bottom: -265px;
         margin: 50px;
         color: #454545;
         font-size: 18px;
+        position: absolute;
+    }
+    .fifth {
+        left: 140px;
+        bottom: -355px;
+        margin: 50px;
+        position: absolute;
+    }
+    .fifthmin {
+        left: 140px;
+        bottom: -390px;
+        margin: 50px;
+        color: #454545;
+        font-size: 18px;
+        position: absolute;
+    }
+    footer {
+        background: #111;
+        width: 100px;
+        height: 100px;
+        bottom: 100px;
+        position: absolute;
+
+    }
+    .footer1 {
+
+        bottom: -600px;
+        height: 0;
+        margin: 0;
         position: absolute;
     }
