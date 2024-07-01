@@ -286,10 +286,41 @@
         margin: 0px 5px;
     }
     @media only screen and (max-width: 600px) {
+        .wrapper-main {
+            width: 80%;
+        }
         body {
-            width: 60%;
+            overflow-x: hidden;
+            width: 100%;
         }
         .vl {
             display: none;
+        }
+        .gradient-box {
+            width: 120vw;
+            height: 170px;
+        }
+        .footContainer {
+            width: 500px;
+            height: 100px;
+        }
+        footer {
+            width: 100vw;
+            font-size: 10px;
+        }
+        .footerNav ul {
+            
+            left: -50px;
+            position: absolute;
+        }
+        .footerNav ul li a {
+            margin: 30px;
+        }
+        .footerBottom {
+            text-align: left;
+            
+        }
+        .socialIcons {
+            justify-content: left;
         }
     }
