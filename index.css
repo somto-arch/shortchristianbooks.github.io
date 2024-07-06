@@ -288,7 +288,7 @@
     .burger-menu, .burger-menu-btn {
         display: none;
     }
-    @media only screen and  (max-width: 900px) {
+    @media only screen and (min-width: 360px) and  (max-width: 800px) {
         .burger-menu-btn {
             display: block;
             top: 0;
@@ -376,7 +376,7 @@
         .first {
             left: -70px;
             margin: 90px;
-            bottom: 320px;
+            bottom: 290px;
             font-size: 20px;
         }
         .first_min {
