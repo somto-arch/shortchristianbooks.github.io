@@ -353,7 +353,7 @@
         footer {
             width: 100vw;
             font-size: 10px;
-            bottom: -450px;
+            bottom: -680px;
         }
         .footerNav ul {
             
@@ -376,125 +376,125 @@
         .first {
             left: -70px;
             margin: 90px;
-            bottom: 335px;
+            bottom: 315px;
             font-size: 20px;
         }
         .first_min {
             left: -70px;
-            bottom: 280px;
+            bottom: 290px;
             margin: 90px;
             font-size: 14px;
         }
     
         .second {
             left: -70px;
-            bottom: 240px;
+            bottom: 225px;
             margin: 90px;
             font-size: 20px;
         }
         .second_min {
             left: -70px;
-            bottom: 220px;
+            bottom: 200px;
             margin: 90px;
            font-size: 14px;
         }
     
         .third {
             left: -70px;
-            bottom: 155px;
+            bottom: 138px;
             margin: 90px;
             font-size: 20px;
         }
     
         .third_min {
             left: -70px;
-            bottom: 135px;
+            bottom: 115px;
             margin: 90px;
             font-size: 14px;
         }
     
         .fourth {
             left: -70px;
-            bottom: 80px;
+            bottom: 34px;
             margin: 90px;
             font-size: 20px;
         }
     
         .fourth_min {
             left: -70px;
-            bottom: 60px;
+            bottom: 13px;
             margin: 90px;
             font-size: 14px;
         }
         .fifth {
             left: -70px;
-            bottom: -155px;
+            bottom: -95px;
             margin: 90px;
             font-size: 20px;
         }
         .fifthmin {
             left: -70px;
-            bottom: -48px;
+            bottom: -115px;
             margin: 90px;
             font-size: 14px;
         }
         .sixth {
             left: -70px;
-            bottom: -8px;
+            bottom: -185px;
             margin: 90px;
             font-size: 20px;
         }
         .sixthmin {
             left: -70px;
-            bottom: -33px;
+            bottom: -206px;
             margin: 90px;
             font-size: 14px;
         }
         .seventh {
             left: -70px;
-            bottom: -84px;
+            bottom: -278px;
             margin: 90px;
             font-size: 20px;
         }
         .seventhmin {
             left: -70px;
-            bottom: -110px;
+            bottom: -299px;
             margin: 90px;
             font-size: 14px;
         }
         .eighth {
             left: -70px;
-            bottom: -170px;
+            bottom: -374px;
             margin: 90px;
             font-size: 20px;
         }
         .eighthmin {
             left: -70px;
-            bottom: -195px;
+            bottom: -395px;
             margin: 90px;
             font-size: 14px;
         }
         .nineth {
             left: -70px;
-            bottom: -250px;
+            bottom: -470px;
             margin: 90px;
             font-size: 20px;
         }
         .ninethmin {
             left: -70px;
-            bottom: -272px;
+            bottom: -489px;
             margin: 90px;
             font-size: 14px;
         }
         .tenth {
             left: -70px;
-            bottom: -320px;
+            bottom: -565px;
             margin: 90px;
            font-size: 20px;
         }
         .tenthmin {
             left: -70px;
-            bottom: -343px;
+            bottom: -584px;
             margin: 90px;
             font-size: 14px;
         }
