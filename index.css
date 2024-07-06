@@ -288,7 +288,7 @@
     .burger-menu, .burger-menu-btn {
         display: none;
     }
-    @media only screen and (max-width: 800px) {
+    @media only screen and  (max-width: 900px) {
         .burger-menu-btn {
             display: block;
             top: 0;
@@ -376,65 +376,65 @@
         .first {
             left: -70px;
             margin: 90px;
-            bottom: 420px;
+            bottom: 320px;
             font-size: 20px;
         }
         .first_min {
             left: -70px;
-            bottom: 395px;
+            bottom: 300px;
             margin: 90px;
             font-size: 14px;
         }
     
         .second {
             left: -70px;
-            bottom: 340px;
+            bottom: 240px;
             margin: 90px;
             font-size: 20px;
         }
         .second_min {
             left: -70px;
-            bottom: 314px;
+            bottom: 220px;
             margin: 90px;
            font-size: 14px;
         }
     
         .third {
             left: -70px;
-            bottom: 260px;
+            bottom: 155px;
             margin: 90px;
             font-size: 20px;
         }
     
         .third_min {
             left: -70px;
-            bottom: 235px;
+            bottom: 135px;
             margin: 90px;
             font-size: 14px;
         }
     
         .fourth {
             left: -70px;
-            bottom: 180px;
+            bottom: 80px;
             margin: 90px;
             font-size: 20px;
         }
     
         .fourth_min {
             left: -70px;
-            bottom: 155px;
+            bottom: 60px;
             margin: 90px;
             font-size: 14px;
         }
         .fifth {
             left: -70px;
-            bottom: 75px;
+            bottom: -155px;
             margin: 90px;
             font-size: 20px;
         }
         .fifthmin {
             left: -70px;
-            bottom: 48px;
+            bottom: -48px;
             margin: 90px;
             font-size: 14px;
         }
