@@ -500,128 +500,212 @@
         }
     }
     @media only screen and (max-width:320px) {
+        .burger-menu-btn {
+            display: block;
+            top: 0;
+            position: absolute;
+            width: 50px;
+            height: 70px;
+            background-image: url(barpng.png), url(barclose.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center, center left 60px;
+        }
+        .burger-menu {
+            display: none;
+            position: absolute;
+            width: 100%;
+            top: 60px;
+            left: 0;
+            height: 243vh;
+            z-index: 900;
+            background-color: burlywood;
+            text-align: left;
+        }
+        .burger-menu ul {
+            width: 100%;
+            height: calc(100vh - 90px);
+            padding-top: 70px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            
+        }
+        .burger-menu ul li {
+            flex-basis: 100%;
+            
+        }
+        .burger-menu ul li {
+            display: block;
+            height: 6%;
+            font-size: 3rem;
+            flex-basis: 100%;
+            
+        }
+        body {
+            overflow-x: hidden;
+            width: 50%;
+                
+        }
+        .mainheader {
+            display: none;
+        }
+        .vl {
+            display: none;
+        }
+        .gradient-box {
+            width: 80vw;
+            height: 170px;
+        }
+        .footContainer {
+            width: 50px;
+            height: 100px;
+        }
+        footer {
+            width: 100vw;
+            font-size: 10px;
+            bottom: -680px;
+        }
+        .footerNav ul {
+            
+            left: -50px;
+            position: absolute;
+        }
+        .footerNav ul li a {
+            margin: 30px;
+        }
+        .footerBottom {
+            text-align: left;
+            
+        }
+        .socialIcons {
+            justify-content: left;
+        }
+        .Pub {
+            left: 100px;
+        }
         .first {
             left: -70px;
             margin: 90px;
-            bottom: 315px;
+            bottom: 285px;
             font-size: 20px;
         }
         .first_min {
             left: -70px;
-            bottom: 290px;
+            bottom: 25px;
             margin: 90px;
             font-size: 14px;
         }
     
         .second {
             left: -70px;
-            bottom: -225px;
+            bottom: 205px;
             margin: 90px;
             font-size: 20px;
         }
         .second_min {
             left: -70px;
-            bottom: -700px;
+            bottom: 180px;
             margin: 90px;
            font-size: 14px;
         }
     
         .third {
             left: -70px;
-            bottom: -138px;
+            bottom: 138px;
             margin: 90px;
             font-size: 20px;
         }
     
         .third_min {
             left: -70px;
-            bottom: -115px;
+            bottom: 115px;
             margin: 90px;
             font-size: 14px;
         }
     
         .fourth {
             left: -70px;
-            bottom: -34px;
+            bottom: 34px;
             margin: 90px;
             font-size: 20px;
         }
     
         .fourth_min {
             left: -70px;
-            bottom: -13px;
+            bottom: 13px;
             margin: 90px;
             font-size: 14px;
         }
         .fifth {
             left: -70px;
-            bottom: -950px;
+            bottom: -95px;
             margin: 90px;
             font-size: 20px;
         }
         .fifthmin {
             left: -70px;
-            bottom: -1105px;
+            bottom: -115px;
             margin: 90px;
             font-size: 14px;
         }
         .sixth {
             left: -70px;
-            bottom: -1805px;
+            bottom: -185px;
             margin: 90px;
             font-size: 20px;
         }
         .sixthmin {
             left: -70px;
-            bottom: -2006px;
+            bottom: -206px;
             margin: 90px;
             font-size: 14px;
         }
         .seventh {
             left: -70px;
-            bottom: -2708px;
+            bottom: -278px;
             margin: 90px;
             font-size: 20px;
         }
         .seventhmin {
             left: -70px;
-            bottom: -2909px;
+            bottom: -299px;
             margin: 90px;
             font-size: 14px;
         }
         .eighth {
             left: -70px;
-            bottom: -3704px;
+            bottom: -374px;
             margin: 90px;
             font-size: 20px;
         }
         .eighthmin {
             left: -70px;
-            bottom: -3900px;
+            bottom: -395px;
             margin: 90px;
             font-size: 14px;
         }
         .nineth {
             left: -70px;
-            bottom: -4700px;
+            bottom: -470px;
             margin: 90px;
             font-size: 20px;
         }
         .ninethmin {
             left: -70px;
-            bottom: -4809px;
+            bottom: -489px;
             margin: 90px;
             font-size: 14px;
         }
         .tenth {
             left: -70px;
-            bottom: -5605px;
+            bottom: -565px;
             margin: 90px;
            font-size: 20px;
         }
         .tenthmin {
             left: -70px;
-            bottom: -5804px;
+            bottom: -584px;
             margin: 90px;
             font-size: 14px;
         }
