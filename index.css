@@ -499,7 +499,7 @@
             font-size: 14px;
         }
     }
-    @media only screen and (min-width:320px) {
+    @media only screen and (max-width:320px) {
         .first {
             left: -70px;
             margin: 90px;
