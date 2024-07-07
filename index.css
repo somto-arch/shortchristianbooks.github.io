@@ -499,13 +499,13 @@
             font-size: 14px;
         }
     }
-    @media only screen and (max-width:320px) {
+    @media only screen and  (max-width: 320px) {
         .burger-menu-btn {
             display: block;
             top: 0;
             position: absolute;
-            width: 50px;
-            height: 70px;
+            width: 38px;
+            height: 45px;
             background-image: url(barpng.png), url(barclose.png);
             background-size: cover;
             background-repeat: no-repeat;
@@ -555,7 +555,7 @@
         }
         .gradient-box {
             width: 80vw;
-            height: 170px;
+            height: 70px;
         }
         .footContainer {
             width: 50px;
@@ -582,94 +582,96 @@
             justify-content: left;
         }
         .Pub {
-            left: 100px;
+            left: -23px;
+            margin: 47px;
+            font-size: 35px;
         }
         .first {
             left: -70px;
             margin: 90px;
-            bottom: 160px;
-            font-size: 19.8px;
+            bottom: 260px;
+            font-size: 19px;
         }
         .first_min {
             left: -70px;
-            bottom: 140px;
+            bottom: 242px;
             margin: 90px;
             font-size: 14px;
         }
     
         .second {
             left: -70px;
-            bottom: 65px;
+            bottom: 165px;
             margin: 90px;
             font-size: 17.9px;
         }
         .second_min {
             left: -70px;
-            bottom: 45px;
+            bottom: 145px;
             margin: 90px;
            font-size: 14px;
         }
     
         .third {
             left: -70px;
-            bottom: -30px;
+            bottom: 65px;
             margin: 90px;
             font-size: 18.7px;
         }
     
         .third_min {
             left: -70px;
-            bottom: -50px;
+            bottom: 46px;
             margin: 90px;
             font-size: 14px;
         }
     
         .fourth {
             left: -70px;
-            bottom: -124px;
+            bottom: -34px;
             margin: 90px;
-            font-size: 15.92px;
+            font-size: 16px;
         }
     
         .fourth_min {
             left: -70px;
-            bottom: -143px;
+            bottom: -52px;
             margin: 90px;
             font-size: 14px;
         }
         .fifth {
             left: -70px;
-            bottom: -275px;
+            bottom: -185px;
             margin: 90px;
             font-size: 19px;
         }
         .fifthmin {
             left: -70px;
-            bottom: -295px;
+            bottom: -204px;
             margin: 90px;
             font-size: 14px;
         }
         .sixth {
             left: -70px;
-            bottom: -385px;
+            bottom: -300px;
             margin: 90px;
             font-size: 20px;
         }
         .sixthmin {
             left: -70px;
-            bottom: -404px;
+            bottom: -319px;
             margin: 90px;
             font-size: 14px;
         }
         .seventh {
             left: -70px;
-            bottom: -491px;
+            bottom: -410px;
             margin: 90px;
             font-size: 20px;
         }
         .seventhmin {
             left: -70px;
-            bottom: -514px;
+            bottom: -434px;
             margin: 90px;
             font-size: 14px;
         }
@@ -709,4 +711,4 @@
             margin: 90px;
             font-size: 14px;
         }
-    }
+        
