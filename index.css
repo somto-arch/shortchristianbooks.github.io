@@ -288,7 +288,7 @@
     .burger-menu, .burger-menu-btn {
         display: none;
     }
-    @media only screen and (min-width:360px) and (max-width: 800px) {
+    @media only screen and (min-width:360px) and (max-width: 900px) {
         .burger-menu-btn {
             display: block;
             top: 0;
@@ -343,8 +343,8 @@
             display: none;
         }
         .gradient-box {
-            width: 80vw;
-            height: 170px;
+            width: 100vw;
+            height: 100px;
         }
         .footContainer {
             width: 50px;
@@ -376,7 +376,7 @@
         .first {
             left: -70px;
             margin: 90px;
-            bottom: 315px;
+            bottom: 315px auto;
             font-size: 20px;
         }
         .first_min {
