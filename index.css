@@ -293,8 +293,8 @@
             display: block;
             top: 0;
             position: absolute;
-            width: 50px;
-            height: 70px;
+            width: 47px;
+            height: 40px;
             background-image: url(barpng.png), url(barclose.png);
             background-size: cover;
             background-repeat: no-repeat;
