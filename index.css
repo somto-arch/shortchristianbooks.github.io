@@ -308,7 +308,7 @@
             left: 0;
             height: 243vh;
             z-index: 900;
-            background-color: burlywood;
+            background-color: #D9D9D9;
             text-align: left;
         }
         .burger-menu ul {
