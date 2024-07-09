@@ -371,7 +371,9 @@
             justify-content: left;
         }
         .Pub {
-            left: 100px;
+           left: -10px;
+            margin: 37px;
+            font-size: 35px;
         }
         .first {
             left: -70px;
