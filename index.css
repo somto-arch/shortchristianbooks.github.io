@@ -376,7 +376,7 @@
         .first {
             left: -70px;
             margin: 90px;
-            bottom: 315px auto;
+            bottom: 315px;
             font-size: 20px;
         }
         .first_min {
