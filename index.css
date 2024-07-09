@@ -295,7 +295,7 @@
             position: absolute;
             width: 47px;
             height: 40px;
-            background-image: url(barpng.png), url(barclose.png);
+            background-image: url(open.png), url(close.png);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center, center left 60px;
@@ -508,7 +508,7 @@
             position: absolute;
             width: 38px;
             height: 45px;
-            background-image: url(barpng.png), url(barclose.png);
+            background-image: url(open.png), url(close.png);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center, center left 60px;
