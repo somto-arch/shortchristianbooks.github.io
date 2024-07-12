@@ -60,5 +60,7 @@ body {
 .allc {
     line-height: 2.3 !important;
 }
+.fifth {
+ display: ruby-base;
  }
  
