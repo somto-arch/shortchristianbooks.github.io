@@ -46,23 +46,21 @@ body {
 
 
  @media (max-width: 612px) {
-  .container {
-     top: 220px;
-  }
-  .gridsm {
-    font-size: 9pt;
-    left: 30px;
-  }
-  .grid {
-    font-size: 19px;
-    padding: 15px;
-    display: ruby-base;
-  }
-.allc {
+      .container {
+         top: 220px;
+      }
+      .gridsm {
+        font-size: 9pt;
+        left: 30px;
+      }
+      .grid {
+        font-size: 19px;
+        padding: 15px;
+        display: ruby;
+      }
+    .allc {
     line-height: 2.3 !important;
-}
-.fifth {
- display: ruby-base;
- }
+    }
+
 }
  
