@@ -12,9 +12,10 @@ body {
     top: 250px;
     position: relative;
     padding-right: 70px;
+    max-width: 100%;
 }
 .grid {
-   display: grid; 
+/**   display: grid;  **/
     color: #AC4317;
     padding: 40px;
   /**  row-gap: 50px; **/
