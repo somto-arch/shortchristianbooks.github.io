@@ -43,9 +43,13 @@ body {
 
 
 
- @media only screen (max-width:690px) {
-    .gridsm {
-        font-size: 14px;
-    } 
+ @media (max-width: 575px) {
+  
+  .gridsm {
+    font-size: 8pt;
+  }
+  .grid {
+    font-size: 25px;
+  }
  }
  
