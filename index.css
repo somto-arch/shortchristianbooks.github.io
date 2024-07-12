@@ -23,6 +23,9 @@ body {
 
 .gridsm {
     top: 10px;
+
+   
+        
     left: 50px;
     line-height: 1.1;
     font-size: 19px;
@@ -37,4 +40,12 @@ body {
     margin: 0;
   background-color: #F3F3F3;
  } 
+
+
+
+ @media (max-width:576px) {
+    .gridsm {
+        font-size: 14px;
+    } 
+ }
  
