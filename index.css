@@ -14,7 +14,7 @@ body {
     padding-right: 70px;
 }
 .grid {
-  /**  display: grid; **/
+   display: grid; 
     color: #AC4317;
     padding: 40px;
   /**  row-gap: 50px; **/
