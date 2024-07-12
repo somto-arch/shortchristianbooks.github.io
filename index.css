@@ -43,7 +43,7 @@ body {
 
 
 
- @media (min-width:360px) {
+ @media (max-width:560px) {
     .gridsm {
         font-size: 14px;
     } 
