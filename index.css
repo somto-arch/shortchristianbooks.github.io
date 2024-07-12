@@ -56,6 +56,7 @@ body {
   .grid {
     font-size: 19px;
     padding: 15px;
+    display: ruby-base;
   }
 .allc {
     line-height: 2.3 !important;
