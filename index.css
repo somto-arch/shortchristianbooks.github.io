@@ -47,10 +47,10 @@ body {
  @media (max-width: 612px) {
   
   .gridsm {
-    font-size: 5pt;
+    font-size: 9pt;
   }
   .grid {
-    font-size: 25px;
+    font-size: 19px;
   }
  }
  
