@@ -63,7 +63,10 @@ background-color: #F3F3F3;
 }
 .triangle {
   
-   border-top: 90px solid rgb(18, 80, 18);
+   border-left: 60px solid transparent;
+   border-right: 60px solid transparent;
+   right: -5px;
+ 
    
 }
 
