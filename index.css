@@ -22,10 +22,10 @@ background-color: #F3F3F3;
   position: absolute;
   
 }
-.triangle {
+/**.triangle {
   animation: blurAnimation 3s 1;
-}
-@keyframes blurAnimation {
+}**/
+/**@keyframes blurAnimation {
   0% {
     filter: blur(0px);
   }
@@ -35,7 +35,7 @@ background-color: #F3F3F3;
   100% {
     filter: blur(0px);
   }
-}
+}**/
 
 .container {
   display: grid;
@@ -52,6 +52,8 @@ background-color: #F3F3F3;
 /**   display: grid;  **/
   color: #AC4317;
   padding: 40px;
+  max-width: 100%;
+  display: flex;
 /**  row-gap: 50px; **/
   
 } 
@@ -59,11 +61,8 @@ background-color: #F3F3F3;
 
 .gridsm {
   top: 10px;
-
- 
-      
   left: 50px;
-  line-height: 1.1;
+  line-height: 7.1;
   font-size: 19px;
   position: relative;
 }
@@ -132,7 +131,9 @@ margin: 0;
 
 
 
-
+.burger-menu, .burger-menu-btn {
+  display: none;
+}
 @media (max-width: 612px) {
 .container {
    top: 220px;
@@ -140,11 +141,12 @@ margin: 0;
 .gridsm {
   font-size: 9pt;
   left: 30px;
+  line-height: 1.1;
 }
 .grid {
   font-size: 19px;
   padding: 15px;
-  
+ line-height: 1.0;
 }
 .allc {
   line-height: 2.3 !important;
@@ -157,5 +159,61 @@ margin: 0;
  
    
 } **/
-
+.burger-menu-btn {
+  display: block;
+  top: 0;
+  position: absolute;
+  width: 47px;
+  height: 40px;
+  background-image: url(open.png), url(close.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center, center left 60px;
 }
+.burger-menu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  left: 0;
+  height: 243vh;
+  z-index: 900;
+  background-color: #F3F3F3;
+  text-align: left;
+}
+.burger-menu ul {
+  width: 90%;
+  height: calc(100vh - 90px);
+  padding-top: 15px;
+  left: -10px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+ 
+}
+.burger-menu ul li {
+  flex-basis: 100%;
+  
+}
+.burger-menu ul li {
+  
+  display: block;
+  height: 10%;
+  font-size: 2rem;
+  flex-basis: 100%;
+  }
+  .burger-menu ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  .headercolo {
+    height: 110pt;
+  }
+  .topt {
+    font-size: 20pt;
+    padding: 80px;
+    left: -60px;
+  }
+}
+
