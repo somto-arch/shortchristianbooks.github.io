@@ -1,9 +1,41 @@
 body {
   overflow-x: hidden;
   margin: 0;
+  font-family: Fraunces;
+  
 }
+.headercolo {
+  height: 170pt;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: 0;
+background-color: #F3F3F3;
 
-
+} 
+ .topt {
+  padding: 100px;
+  left: -70px;
+  color: green;
+  font-size: 50px;
+  top: 0;
+  position: absolute;
+  
+}
+.triangle {
+  animation: blurAnimation 3s 1;
+}
+@keyframes blurAnimation {
+  0% {
+    filter: blur(0px);
+  }
+  50% {
+    filter: blur(10px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
 
 .container {
   display: grid;
@@ -15,6 +47,7 @@ body {
   padding-right: 70px;
  
 }
+
 .grid {
 /**   display: grid;  **/
   color: #AC4317;
@@ -22,6 +55,7 @@ body {
 /**  row-gap: 50px; **/
   
 } 
+
 
 .gridsm {
   top: 10px;
@@ -33,15 +67,69 @@ body {
   font-size: 19px;
   position: relative;
 }
+/**footer  {
+  
+background: bisque; 
+margin: 0;
+}
+.footContainer {
+  padding: 1px 30px 10px ;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 2em;
+  color: red;
+  opacity: 0.9;
+}
+.socialIcons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+.footerNav {
+ 
+  margin: 10px ;
+}
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a {
+  
+  color: black;
+  margin: 70px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerBottom {
+  
+  background-color: #000;
+  padding: -1px;
+  text-align: center;
+}
+.footerBottom p {
+  
+  color: white;
+}
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+} **/
 
-.headercolo {
-  height: 170pt;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  margin: 0;
-background-color: #F3F3F3;
-} 
 
 
 
@@ -56,18 +144,18 @@ background-color: #F3F3F3;
 .grid {
   font-size: 19px;
   padding: 15px;
-  white-space: nowrap;
+  
 }
 .allc {
   line-height: 2.3 !important;
 }
-.triangle {
+/**.triangle {
   
    border-left: 60px solid transparent;
    border-right: 60px solid transparent;
    right: -5px;
  
    
-}
+} **/
 
 }
