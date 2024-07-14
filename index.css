@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
   margin: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
   
 }
 .headercolo {
@@ -20,7 +20,7 @@ background-color: #F3F3F3;
   font-size: 50px;
   top: 0;
   position: absolute;
-  
+  font-family: 'Courier New', Courier, monospace;
 }
 .vl {
   border-left: 30px solid saddlebrown;
@@ -61,6 +61,7 @@ background-color: #F3F3F3;
   max-width: 100%;
   display: flex;
   line-height: 0.0;
+  font-family: Baskervville SC;
 /**  row-gap: 50px; **/
   
 } 
@@ -215,7 +216,7 @@ margin: 0;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-   
+   font-family: Fraunces;
   }
   .burger-menu ul li {
     flex-basis: 100%;
