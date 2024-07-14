@@ -42,7 +42,7 @@ background-color: #F3F3F3;
   grid-template-rows: 1fr ;
   
   row-gap: 10px;
-  top: 240px;
+  top: 180px;
   position: relative;
   padding-right: 70px;
  
@@ -136,7 +136,7 @@ margin: 0;
 }
 @media (max-width: 612px) {
 .container {
-   top: 220px;
+   top: 140px;
 }
 .gridsm {
   font-size: 9pt;
