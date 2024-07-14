@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
   margin: 0;
-  font-family: Fraunces;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 .headercolo {
@@ -15,12 +15,18 @@ background-color: #F3F3F3;
 } 
  .topt {
   padding: 100px;
-  left: -70px;
+  left: -20px;
   color: green;
   font-size: 50px;
   top: 0;
   position: absolute;
   
+}
+.vl {
+  border-left: 30px solid saddlebrown;
+  top: 0;
+  height: 100vw;
+  position: absolute;
 }
 /**.triangle {
   animation: blurAnimation 3s 1;
@@ -42,9 +48,9 @@ background-color: #F3F3F3;
   grid-template-rows: 1fr ;
   
   row-gap: 10px;
-  top: 180px;
+  top: 140px;
   position: relative;
-  padding-right: 70px;
+  padding: 90px;
  
 }
 
@@ -54,6 +60,7 @@ background-color: #F3F3F3;
   padding: 40px;
   max-width: 100%;
   display: flex;
+  line-height: 0.0;
 /**  row-gap: 50px; **/
   
 } 
@@ -62,7 +69,7 @@ background-color: #F3F3F3;
 .gridsm {
   top: 10px;
   left: 50px;
-  line-height: 7.1;
+  line-height: 1.0;
   font-size: 19px;
   position: relative;
 }
@@ -135,85 +142,102 @@ margin: 0;
   display: none;
 }
 @media (max-width: 612px) {
-.container {
-   top: 140px;
-}
-.gridsm {
-  font-size: 9pt;
-  left: 20px;
-  line-height: 1q;
-}
-.grid {
-  font-size: 19px;
-  padding: 15px;
- line-height: 1.0;
-}
-.allc {
-  line-height: 2.3 !important;
-}
-/**.triangle {
-  
-   border-left: 60px solid transparent;
-   border-right: 60px solid transparent;
-   right: -5px;
- 
-   
-} **/
-.burger-menu-btn {
-  display: block;
-  top: 0;
-  position: absolute;
-  width: 47px;
-  height: 40px;
-  background-image: url(open.png), url(close.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center, center left 60px;
-}
-.burger-menu {
-  display: none;
-  position: absolute;
-  width: 100%;
-  top: 40px;
-  left: 0;
-  height: 243vh;
-  z-index: 900;
-  background-color: #F3F3F3;
-  text-align: left;
-}
-.burger-menu ul {
-  width: 90%;
-  height: calc(100vh - 90px);
-  padding-top: 15px;
-  left: -10px;
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
- 
-}
-.burger-menu ul li {
-  flex-basis: 100%;
-  
-}
-.burger-menu ul li {
-  
-  display: block;
-  height: 10%;
-  font-size: 2rem;
-  flex-basis: 100%;
-  }
-  .burger-menu ul li a {
-    color: black;
-    text-decoration: none;
-  }
-  .headercolo {
-    height: 110pt;
-  }
-  .topt {
-    font-size: 20pt;
-    padding: 80px;
-    left: -60px;
-  }
-}
+  .container {
+     top: 140px;
+    padding: 0;
 
+     padding-right: 90px;
+     row-gap: 17px;
+  }
+  .vl {
+    visibility: hidden;
+  }
+  .gridsm {
+    font-size: 9pt;
+    left: 30px;
+
+    margin: -15px;
+    
+    }
+    .fourth_min {
+      margin: 3px;
+      left: 15px;
+    }
+  .fifthmin {
+   margin: 22px;
+   left: -5px;
+  }
+  .grid {
+    font-size: 19px;
+    padding: 15px;
+   line-height: 1.0;
+   display: grid;
+  }
+  .allc {
+    line-height: 2.3 !important;
+  }
+  /**.triangle {
+    
+     border-left: 60px solid transparent;
+     border-right: 60px solid transparent;
+     right: -5px;
+   
+     
+  } **/
+  .burger-menu-btn {
+    display: block;
+    top: 0;
+    position: absolute;
+    width: 47px;
+    height: 40px;
+    background-image: url(open.png), url(close.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center left 60px;
+  }
+  .burger-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    left: 0;
+    height: 243vh;
+    z-index: 900;
+    background-color: #F3F3F3;
+    text-align: left;
+  }
+  .burger-menu ul {
+    width: 90%;
+    height: calc(100vh - 90px);
+    padding-top: 15px;
+    left: -10px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   
+  }
+  .burger-menu ul li {
+    flex-basis: 100%;
+    
+  }
+  .burger-menu ul li {
+    
+    display: block;
+    height: 10%;
+    font-size: 2rem;
+    flex-basis: 100%;
+    }
+    .burger-menu ul li a {
+      color: black;
+      text-decoration: none;
+    }
+    .headercolo {
+      height: 110pt;
+    }
+    .topt {
+      font-size: 20pt;
+      padding: 80px;
+      left: -60px;
+    }
+  }
