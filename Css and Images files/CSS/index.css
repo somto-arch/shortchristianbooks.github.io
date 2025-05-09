@@ -228,6 +228,9 @@ span > video {
     padding-block: 2% 10%;
     margin-bottom: var(--margin-bottom);
 }
+.text-1 {
+    font-family: Nunito;
+}
 .min-text {
     width: 40%;
     margin: 0 auto !important;
