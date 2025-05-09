@@ -499,7 +499,9 @@ b:hover {
 
 
 @media (max-width: 650px) {
-
+    body {
+        width: 100vh;
+    }
     .nav-links {
         background: none;
     }
