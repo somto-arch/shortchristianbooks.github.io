@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+.sec2 {
+    overflow-x: hidden;
+}
+i
+{
+    filter: blur(1px);
+    opacity: 0;
+
+}
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+.navbar-nav {
+    flex-direction: initial !important;
+}
+.navbar {
+    --bs-navbar-padding-y: 0 !important;
+    padding: 7px 0 !important;
+    background: #658ba2;
+}
+.nav-item {
+    padding-right: 40px;
+    font-family: Nunito;
+}
+.navbar-brand {
+    padding-block: 0 !important;
+    font-family: Nunito;
+    font-weight: bolder;
+    padding-left: 40px;
+}
+section {
+    margin-bottom: 10%;
+}
+i {
+    font-size: 18px;
+}
+h3 {
+    font-size: 18px !important;
+}
+.carousel-caption {
+    text-align: left !important;
+}
+.pgh {
+    width: 40%;
+    margin: 0 auto !important;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+/*.text-muted {*/
+/*    font-size: 12px !important;*/
+/*    font-weight: 700;*/
+/*    font-family: Nunito;*/
+/*}*/
+.sec3 {
+    background-color: #f5f5f5;
+    padding-block: 2% 10%;
+}
+:root{
+    --my-white: #EBECED;
+}
+.header {
+    background-color: var(--my-white);
+    margin-bottom: 0;
+
+}
+.custom-bg {
+    background-color: white !important;
+    --bs-btn-border-color: white !important;
+}
+.h3-h3 {
+    font-family: Cinzel;
+    font-weight: 600;
+}
+button {
+    padding: 1%;
+}
+
+span {
+    font-size: 14px;
+    white-space: nowrap;
+}
+#spn2 {
+    font-size: 10px;
+}
+.num {
+    --bs-dropdown-min-width: 0 !important;
+    --bs-dropdown-border-color: none !important;
+}
+/*.verses {*/
+/*    background: white;*/
+/*    border:  1px solid var(--bs-border-color-translucent);*/
+/*    border-radius: 10px;*/
+/*    width: 20rem;*/
+/*    height: 10rem;*/
+/*    padding-top: 10px;*/
+/*    padding-left: 10px;*/
+/*    grid-template-columns: repeat(auto-fill, minmax(50px,1fr));*/
+/*    position: absolute;*/
+/*    overflow: auto;*/
+/*    animation: ani_mation 0.5s;*/
+/*    transition: 0.5s ease;*/
+/*}*/
+@keyframes ani_mation {
+    0% {
+        transform: translate(10%,0);
+        opacity: 20;
+    }
+    100% {
+        transform: translate(0);
+        opacity: 100;
+    }
+}
+b {
+    font-weight: lighter !important;
+    text-decoration: underline;
+    display: inline-block;
+    padding-bottom: 20px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.63);
+}
+b:hover {
+    color: rgba(0, 0, 0, 0.97);
+}
+.img-fluid {
+    width: 100px;
+}
+.scroll-container {
+    display: flex;
+}
+.scroll {
+    display: flex;
+    animation: auto_scroll 20s linear infinite;
+}
+.scroll-container:hover .scroll{
+    animation-play-state: paused;
+}
+.col_img {
+    padding-right: 4rem;
+}
+@keyframes auto_scroll {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.bx {
+        transition: 0.1s ease-out;
+    }
+.show {
+    .bx {
+        rotate: 180deg;
+        transition: 0.1s ease-out;
+    }
+}
+.list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: Nunito;
+    row-gap: 40px;
+}
+
+
