@@ -3,6 +3,7 @@
 }
 body {
     overflow-x: hidden;
+    width: 100vh;
 }
 /*#loading-overlay {*/
 /*    position: fixed;*/
