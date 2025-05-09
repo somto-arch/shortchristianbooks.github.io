@@ -553,7 +553,7 @@ b:hover {
     }
 
     .link_1.active {
-        display: flex; /* Show when active */
+        display: flex !important; /* Show when active */
     }
 
     /* Animation for hamburger to X */
