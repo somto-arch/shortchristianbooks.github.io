@@ -3,7 +3,6 @@
 }
 body {
     overflow-x: hidden;
-    width: 100vw;
 }
 /*#loading-overlay {*/
 /*    position: fixed;*/
@@ -498,7 +497,9 @@ b:hover {
 }
 }
 
-@media screen and (max-width: 650px) {
+
+@media (max-width: 650px) {
+
     .nav-links {
         background: none;
     }
@@ -540,7 +541,7 @@ b:hover {
     }
 
     .link_1, .name-3 {
-        display: none; /* Hide by default on mobile */
+        display: none !important; /* Hide by default on mobile */
         position: absolute;
         top: 60px; /* Adjust based on your navbar height */
         left: 0;
@@ -601,6 +602,9 @@ b:hover {
     .list {
         grid-template-columns: repeat(1, 1fr);
         margin-left: 30px;
+        font-size: 20px;
+        font-weight: 100;
+        row-gap: 60px;
     }
 /*    sec 6 */
     .custom-bg-1, .custom-bg-2 {
@@ -621,7 +625,7 @@ b:hover {
     }
 }
 
-@media screen and (max-width: 365px){
+@media (max-width: 365px){
         .h-3 {
         width: 160px;
         height: 160px;
@@ -636,7 +640,7 @@ b:hover {
     }
 }
 
-@media screen and (max-width: 320px){
+@media (max-width: 320px){
     .h-3 {
         width: 120px;
         height: 120px;
