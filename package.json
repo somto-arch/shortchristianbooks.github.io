@@ -2,10 +2,10 @@
   "name": "first_ui_bibleverse_web",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "main": "backend_2.js",
   "scripts": {
     "type": "module",
-    "start": "Html And Javascript files/JS/javascript.js",
+    "start": "index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
