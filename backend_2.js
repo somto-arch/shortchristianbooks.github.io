@@ -15,5 +15,8 @@ app.get('/:ver/:book/:vers', async (req, res) => {
     res.send(o)
 });
 
+app.get('/', async (req, res) => {
+    res.send('Alright!')
+})
 
 app.listen(3000, () => console.log('running'));
