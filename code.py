@@ -1,13 +1,5 @@
 def get_grade(score):
-    """
-    Calculates the grade based on the given score.
-
-    Args:
-        score (int): The numerical score.
-
-    Returns:
-        str: The corresponding letter grade.
-    """
+    
     if 70 <= score <= 100:
         return "A"
     elif 60 <= score <= 69:
@@ -23,7 +15,7 @@ def get_grade(score):
     else:
         return "Invalid Score"
 
-# Main part of the program
+
 if __name__ == "__main__":
     try:
         score = int(input("Enter the student's score: "))
