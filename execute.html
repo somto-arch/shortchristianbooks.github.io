@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POC</title>
+</head>
+<body>
+<b id="poc" style="background: cadetblue; display: inline; border-radius: 1%">Double Click Now</b>
+
+<script>
+     let element = document.getElementById("poc")
+    element.style.position = "absolute"
+    element.style.top = 380 + "px"
+    element.style.left = 203 + "px"
+
+
+    element.addEventListener("click", () => {
+        window.close()
+    })
+</script>
+</body>
+</html>
