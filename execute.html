@@ -5,18 +5,21 @@
     <title>POC</title>
 </head>
 <body>
-<b id="poc" style="background: cadetblue; display: inline; border-radius: 1%">Double Click Now</b>
+<b id="poc" style="text-align: center; background: cadetblue; display: inline; border-radius: 1%">Double Click Now</b>
 
 <script>
      let element = document.getElementById("poc")
     element.style.position = "absolute"
-    element.style.top = 328 + "px"
-    element.style.left = 476 + "px"
+    element.style.bottom = 130 + "px"
+    element.style.right =  170+ "px"
 
 
     element.addEventListener("click", () => {
         window.close()
     })
+
+
+
 </script>
 </body>
 </html>
