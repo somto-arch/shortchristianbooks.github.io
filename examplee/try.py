@@ -1,3 +1,3 @@
-def hello_world():
+def pocdone():
     for i in range(10):
         print(i)
