@@ -6,8 +6,7 @@ try:
 except ImportError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "psutil"]); import psutil
 
-def pocdone():
-    def get_system_info():
+    def pocdone():
         print(f"--- [PWD] ---\n{os.getcwd()}\n")
         print(f"--- [Machine] ---\n{platform.node()} ({platform.system()})\n")
     
