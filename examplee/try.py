@@ -1,42 +1,38 @@
-import os
-import platform
-import psutil
-import socket
+import os, platform, sys, subprocess, socket
 
-# 1. PWD (Current Working Directory)
+# 1. One-liner to install psutil
+try:
+    import psutil
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "psutil"]); import psutil
+
 def pocdone():
-    print(f"--- Current Directory ---\n{os.getcwd()}\n")
-
-# 2. Running Machine Name
-    print(f"--- Machine Name ---\n{platform.node()}\n")
-
-# 3. List content in 2 upper directories (/../../)
-    target_dir = os.path.abspath(os.path.join(os.getcwd(), "..", ".."))
-    print(f"--- Content of {target_dir} ---")
-    try:
-        print(os.listdir(target_dir))
-    except FileNotFoundError:
-        print("Directory not found.")
-    print("\n")
-
-# 4. CPU Stats
-    print(f"--- CPU Stats ---")
-    print(f"Usage: {psutil.cpu_percent(interval=1)}%")
-    print(f"Core Count: {psutil.cpu_count()}\n")
-
-# 5. Programming Environment Stats (Memory/PID)
-    print(f"--- Environment Stats ---")
-    process = psutil.Process(os.getpid())
-    print(f"Python PID: {os.getpid()}")
-    print(f"Memory Usage: {process.memory_info().rss / 1024 / 1024:.2f} MB\n")
-
-# 6. Open/Available TCP Ports
-    print(f"--- Open TCP Ports ---")
-    connections = psutil.net_connections(kind='tcp')
-    for conn in connections:
-        if conn.status == 'LISTEN':
-            print(f"Port: {conn.laddr.port}, Status: {conn.status}")
-
-
-
-   
+    def get_system_info():
+        print(f"--- [PWD] ---\n{os.getcwd()}\n")
+        print(f"--- [Machine] ---\n{platform.node()} ({platform.system()})\n")
+    
+        # 2. List content 2 upper directories (/../../)
+        upper_dir = os.path.abspath(os.path.join(os.getcwd(), "..", ".."))
+        print(f"--- [Content in {upper_dir}] ---")
+        try:
+            for item in os.listdir(upper_dir): print(item)
+        except FileNotFoundError:
+            print("Directory not found.")
+        print("\n")
+    
+        # 3. CPU & Environment Stats
+        print(f"--- [CPU/Env Stats] ---")
+        print(f"CPU Usage: {psutil.cpu_percent(interval=1)}%")
+        print(f"Logical CPUs: {psutil.cpu_count()}")
+        print(f"Memory: {psutil.virtual_memory().percent}%\n")
+    
+        # 4. Open TCP Ports (Listening)
+        print("--- [Open Listening TCP Ports] ---")
+        for conn in psutil.net_connections(kind='tcp'):
+            if conn.status == psutil.CONN_LISTEN:
+                print(f"Port: {conn.laddr.port} | PID: {conn.pid}")
+    
+    
+    if __name__ == "__main__":
+        get_system_info()
+    
