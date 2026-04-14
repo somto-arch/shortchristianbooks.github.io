@@ -1,16 +1,15 @@
 import os
-import getpass
 import socket
 
-# Get the current working directory (pwd)
+# 1. Print current working directory (pwd)
+
 
 
 def pocdone():
-    cwd = os.getcwd()
-    user = getpass.getuser()
-    machine = socket.gethostname()
-    print(f"Directory: {cwd}")
-    print(f"Username: {user}")
-    print(f"Machine:   {machine}")
-   # for i in range(10):
-      #  print(i)
+    print(f"PWD: {os.getcwd()}")
+
+    print(f"Machine: {socket.gethostname()}")
+    parent_content = os.listdir('..')
+    print("\nContents of parent directory (../):")
+    for item in parent_content:
+        print(f" - {item}")
