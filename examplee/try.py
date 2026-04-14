@@ -1,6 +1,6 @@
 import os
 
-def poc_done():
+def pocdone():
     current_dir = os.getcwd()
     
     while True:
