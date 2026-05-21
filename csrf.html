@@ -6,11 +6,14 @@
 </head>
 <body>
 
-<h1>DONE</h1>
+<h1><a id="done">Click here</a></h1>
 
 
 
-<script>document.cookie="cookiename=cookievalue; domain=.kagiproxy.com; path=/";
+<script>document.getElementById("done").addEventListener("click", ()=> {
+    window.location.href = "https://yeswehack.com/user/invitations"
+    window.open("/execute.html")
+})
 </script>
 </body>
 </html>
